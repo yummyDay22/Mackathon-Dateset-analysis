@@ -1,0 +1,24 @@
+{
+  "single": {
+    "lgbm_log": 0.5795265940964881,
+    "lgbm_orig": 6800.352049710368,
+    "xgb_log": 0.5814593020323672,
+    "xgb_orig": 6826.381764888337,
+    "cat_log": 4.262373023505088,
+    "cat_orig": 11306.958565414485
+  },
+  "ensemble": {
+    "simple_avg_log": 1.5220269348628486,
+    "simple_avg_orig": 11058.028757423268,
+    "weighted_log": 0.6380041774565021,
+    "weighted_orig": 8196.933183058136,
+    "optimal_log": 0.5782572284191321,
+    "optimal_orig": 6780.484687500671
+  },
+  "weights_used": [
+    0.5,
+    0.5,
+    0.0
+  ],
+  "chosen_ensemble": "optimal"
+}

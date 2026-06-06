@@ -1,0 +1,59 @@
+{
+  "A_time": [
+    "year",
+    "month",
+    "quarter",
+    "year_idx",
+    "is_moving_season",
+    "dong_3m_mean_Y",
+    "dong_12m_mean_Y",
+    "market_mean_Y_at_t",
+    "policy_era"
+  ],
+  "B_stat": [
+    "dong_mean_Y",
+    "dong_median_Y",
+    "dong_std_Y",
+    "dong_count",
+    "road_mean_Y_smooth",
+    "road_count",
+    "type_mean_Y",
+    "dong_type_mean_Y"
+  ],
+  "C_domain": [
+    "area_bin",
+    "age_group",
+    "is_gangnam_3",
+    "is_riverside"
+  ],
+  "D_area_floor": [
+    "log_area",
+    "floor_group",
+    "is_underground"
+  ],
+  "E_infra": [
+    "infra_score",
+    "station_proximity",
+    "univ_proximity",
+    "missing_infra_flag"
+  ],
+  "F_finance": [
+    "base_rate_yoy",
+    "base_rate_3m_change",
+    "kospi_close_log"
+  ],
+  "G_interaction": [
+    "area_x_dong_meanY",
+    "age_x_type",
+    "station_prox_x_type",
+    "floor_x_type",
+    "gangnam_x_log_area"
+  ],
+  "H_encoding": [
+    "dong_label",
+    "type_label",
+    "is_apt",
+    "is_office",
+    "is_villa"
+  ]
+}

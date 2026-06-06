@@ -1,0 +1,22 @@
+{
+  "single": {
+    "lgbm_log": 0.5795265940964881,
+    "lgbm_orig": 6800.352049710368,
+    "xgb_log": 0.5814593020323672,
+    "xgb_orig": 6826.381764888337,
+    "cat_log": 0.5840328540901422,
+    "cat_orig": 6801.146668025915
+  },
+  "ensemble_2model_best_log": 0.5783748248750297,
+  "ensemble_3model_best_log": 0.578244398532295,
+  "ensemble_3model_best_orig": 6768.042568914072,
+  "weights_3model": {
+    "lgbm": 0.55,
+    "xgb": 0.30000000000000004,
+    "cat": 0.1499999999999999
+  },
+  "weights_2model": {
+    "lgbm": 0.62,
+    "xgb": 0.38
+  }
+}

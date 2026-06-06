@@ -1,0 +1,12 @@
+rank,combo,file,rmse_log,rmse_orig,weights
+1,lgbm+xgb,answer_lgbm_xgb_opt.csv,0.578152257123412,6779.0759797352885,"lgbm=0.61, xgb=0.39"
+2,lgbm+xgb+cat,answer_lgbm_xgb_cat_opt.csv,0.578244398532295,6768.042568914072,"lgbm=0.55, xgb=0.30, cat=0.15"
+3,lgbm+xgb,answer_lgbm_xgb_avg.csv,0.5782572105377061,6780.484643445481,50/50
+4,lgbm+xgb+cat,answer_lgbm_xgb_cat_avg.csv,0.5787074788994746,6765.195636491231,33/33/33
+5,lgbm+cat,answer_lgbm_cat_opt.csv,0.5788723012720587,6769.926456618741,"lgbm=0.71, cat=0.29"
+6,lgbm+cat,answer_lgbm_cat_avg.csv,0.5793252291077785,6764.750106249307,50/50
+7,lgbm,answer_lgbm.csv,0.5795265940964881,6800.352049710368,—
+8,xgb+cat,answer_xgb_cat_opt.csv,0.580549526571582,6789.807795778934,"xgb=0.62, cat=0.38"
+9,xgb+cat,answer_xgb_cat_avg.csv,0.5806808679678445,6784.630572109288,50/50
+10,xgb,answer_xgb.csv,0.5814593020323672,6826.381764888337,—
+11,cat,answer_cat.csv,0.5840328540901422,6801.146668025915,—
